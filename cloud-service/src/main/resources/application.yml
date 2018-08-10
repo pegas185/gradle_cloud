@@ -1,0 +1,25 @@
+endpoints:
+  info:
+    enabled: true
+    sensitive: false
+management:
+  security:
+    enabled: false
+  info:
+    git:
+      enabled: true
+      mode: full
+    build:
+      enabled: true
+    env:
+      enabled: true
+    defaults:
+      enabled: true
+
+
+info:
+  app:
+    encoding: UTF-8
+    java:
+      source: 1.8
+      target: 1.8
